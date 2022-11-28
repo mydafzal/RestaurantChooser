@@ -3,7 +3,6 @@ import { Image, Platform } from 'react-native'
 import { TabNavigator } from 'react-navigation'
 import { PeopleScreen } from './screens/PeopleScreen'
 import { DecisionScreen } from './screens/DecisionScreen'
-import { View } from 'react-native'
 const platformOS = Platform.OS.toLowerCase()
 import Icon from 'react-native-vector-icons/FontAwesome'
 const tabs = TabNavigator(
